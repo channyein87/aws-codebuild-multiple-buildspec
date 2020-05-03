@@ -10,7 +10,7 @@
                 "codecommit:GitPull"
             ],
             "Resource": [
-                "arn:aws:codecommit:eu-west-1:012345678912:*"
+                "arn:aws:codecommit:ap-southeast-2:487523894433:*"
             ],
             "Effect": "Allow"
         },
@@ -21,7 +21,7 @@
                 "logs:PutLogEvents"
             ],
             "Resource": [
-                "arn:aws:logs:eu-west-1:012345678912:log-group:/aws/codebuild/*"
+                "arn:aws:logs:ap-southeast-2:487523894433:log-group:/aws/codebuild/*"
             ],
             "Effect": "Allow"
         },
@@ -33,9 +33,9 @@
                 "s3:ListBucket"
             ],
             "Resource": [
-                "arn:aws:s3:::codepipeline-eu-west-1-*",
-                "arn:aws:s3:::codebuild-demo-artifcat-repository/*",
-                "arn:aws:s3:::codebuild-demo-artifcat-repository"
+                "arn:aws:s3:::codepipeline-ap-southeast-2-*",
+                "arn:aws:s3:::codebuild-demo-art-repo/*",
+                "arn:aws:s3:::codebuild-demo-art-repo"
             ],
             "Effect": "Allow"
         }
