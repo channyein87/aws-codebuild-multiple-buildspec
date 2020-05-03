@@ -8,7 +8,7 @@
     },
     "artifacts": {
         "type": "S3",
-        "location": "codebuild-demo-artifcat-repository"
+        "location": "codebuild-demo-art-repo"
     },
     "environment": {
         "type": "LINUX_CONTAINER",
